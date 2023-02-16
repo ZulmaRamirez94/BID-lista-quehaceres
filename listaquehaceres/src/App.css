@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+h1{
+  color: gray;
+  font-family:  'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.contenedor{
+  width: 490px;
+  min-height: 65px;
+  font-size: 35px;
+  margin: 10px auto;
+  padding: 8px 15px 8px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tarea-Contenido{
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.tarea-Contenido.TareaHecha{
+  text-decoration: line-through;
+}
+
+.inputContenedor{
+  width: 400px; 
+  height: 52px;
+  font-size: 20px;
+  background-color:rgb(232, 229, 229);
+  border: 3px solid rgb(189, 184, 184);
+  border-radius: 10px 10px;
+}
+
+.btn-Save{
+  width: 120px;
+  height: 58px;
+  margin-left: 15px;
+  padding: 10px;
+  font-size: 25px;
+  font: bold;
+  border-radius: 10px 10px;
+  background:rgb(6, 107, 223);
+  color: #fff;
+}
+.btn-Save:active {
+  padding: 4px;
+  background: rgb(9, 9, 166);
+  color: white;
+}
+
+.btnDelete{
+  padding: 13px;
+  font-size: 20px;
+  border-radius: 10px 10px ;
+  color: white;
+  background-color: red;
+  margin-left: 20px;
+}
+
+.btnDelete:active {
+  padding: 15px;
+  background: tomato;
+  color: white;
+}
